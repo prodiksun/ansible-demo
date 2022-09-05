@@ -1,2 +1,8 @@
 exclude_paths:
-  - .github/
+    - .github/
+    - .ansible-lint
+    - .pre-commit-config.yaml
+    - .gitignore
+skip_list:
+    - fqcn-builtins
+    #- yaml[truthy]

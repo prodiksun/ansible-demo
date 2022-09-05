@@ -1,3 +1,3 @@
-.DS_store
-.pass
-/tokens
+.ansible-lint
+.pre-commit-config.yaml
+.gitignore
